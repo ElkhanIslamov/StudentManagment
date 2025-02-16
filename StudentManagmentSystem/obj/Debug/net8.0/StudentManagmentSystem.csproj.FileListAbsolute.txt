@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\StudentManagmentSystem\StudentManagmentSystem\bin\Debug\net8.0\StudentManagmentSystem.exe
+C:\Users\User\Desktop\StudentManagmentSystem\StudentManagmentSystem\bin\Debug\net8.0\StudentManagmentSystem.deps.json
+C:\Users\User\Desktop\StudentManagmentSystem\StudentManagmentSystem\bin\Debug\net8.0\StudentManagmentSystem.runtimeconfig.json
+C:\Users\User\Desktop\StudentManagmentSystem\StudentManagmentSystem\bin\Debug\net8.0\StudentManagmentSystem.dll
+C:\Users\User\Desktop\StudentManagmentSystem\StudentManagmentSystem\bin\Debug\net8.0\StudentManagmentSystem.pdb
+C:\Users\User\Desktop\StudentManagmentSystem\StudentManagmentSystem\obj\Debug\net8.0\StudentManagmentSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\StudentManagmentSystem\StudentManagmentSystem\obj\Debug\net8.0\StudentManagmentSystem.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\StudentManagmentSystem\StudentManagmentSystem\obj\Debug\net8.0\StudentManagmentSystem.AssemblyInfo.cs
+C:\Users\User\Desktop\StudentManagmentSystem\StudentManagmentSystem\obj\Debug\net8.0\StudentManagmentSystem.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\StudentManagmentSystem\StudentManagmentSystem\obj\Debug\net8.0\StudentManagmentSystem.dll
+C:\Users\User\Desktop\StudentManagmentSystem\StudentManagmentSystem\obj\Debug\net8.0\refint\StudentManagmentSystem.dll
+C:\Users\User\Desktop\StudentManagmentSystem\StudentManagmentSystem\obj\Debug\net8.0\StudentManagmentSystem.pdb
+C:\Users\User\Desktop\StudentManagmentSystem\StudentManagmentSystem\obj\Debug\net8.0\StudentManagmentSystem.genruntimeconfig.cache
+C:\Users\User\Desktop\StudentManagmentSystem\StudentManagmentSystem\obj\Debug\net8.0\ref\StudentManagmentSystem.dll

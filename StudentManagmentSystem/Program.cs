@@ -34,7 +34,7 @@ namespace StudentManagmentSystem
                     Console.Write("Add age : ");
                     int age = int.Parse(Console.ReadLine());
                     Console.Write("Add grade : ");
-                    int grade = int.Parse(Console.ReadLine());
+                    char grade = char.Parse(Console.ReadLine());
                     var student = new Student();
                     {
                         student.Id = id;
@@ -49,17 +49,15 @@ namespace StudentManagmentSystem
                 }
                 else if (command == 2)
                 {
-                    var student = new Student();
-                    student = dataContext.GetStudents(student);
+                    dataContext.GetStudents();
+                    
                    
                  
                 }
                 else if (command == 4)
                 {
                     var student = new Student();
-                    student = dataContext.DeleteStudents(student);
-
-                    
+                    dataContext.DeleteStudents(student);
                 }
 
             } while (true);

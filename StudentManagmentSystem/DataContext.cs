@@ -2,31 +2,29 @@
 {
     public class DataContext
     {
-        List<Student> students = new List<Student>();       
-         
+        List<Student> students = new List<Student>();
+
         public Student AddStudent(Student student)
+        {
+
+            students.Add(student);
+
+            return student;
+        }
+        public void GetStudents()
         {
             foreach (Student item in students)
             {
-                students.Add(item);
+                Console.WriteLine($"Id:{item.Id}\n Name:{item.Name}\n Age:{item.Age}\n Grade:{item.Grade}");
             }
-            return student;
+
         }
-        public Student GetStudents(Student student)
-        {
-            foreach(Student item in students)
-            {
-                Console.WriteLine($"Id:{item.Id} Name:{item.Name} Age:{item.Age} Grade:{item.Grade}");
-            }            
-                return student;                      
-        }
-        public Student DeleteStudents(Student student)
+        public void DeleteStudents(Student student)
         {
             foreach (Student item in students)
             {
                 students.Remove(item);
             }
-            return student;
         }
 
         public void ShowSystem()

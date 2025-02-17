@@ -4,9 +4,10 @@ public class Student
 {
     public Student()
     {
+
     }
 
-    public Student(int id, string name, int grade,int age)
+    public Student(int id, string name, char grade,int age)
     {
         Id = id;
         Name = name;
@@ -17,7 +18,7 @@ public class Student
     public int Id { get; set; }
     public string Name { get; set; }
     public int Age { get; set; }
-    public int Grade { get; set; }
+    public char Grade { get; set; }
     
    
 }

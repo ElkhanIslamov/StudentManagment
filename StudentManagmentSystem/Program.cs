@@ -49,15 +49,13 @@ namespace StudentManagmentSystem
                 }
                 else if (command == 2)
                 {
-                    dataContext.GetStudents();
-                    
-                   
-                 
+                    dataContext.GetStudents();                                     
                 }
                 else if (command == 4)
                 {
-                    var student = new Student();
-                    dataContext.DeleteStudents(student);
+                    Console.Write("Enter student Id:");
+                    int id = int.Parse(Console.ReadLine());
+                    int productId =dataContext.GetById(id);
                 }
 
             } while (true);

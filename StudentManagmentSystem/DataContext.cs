@@ -19,13 +19,17 @@
             }
 
         }
-        public void DeleteStudents(Student student)
+        public Student GetById(int id)
         {
             foreach (Student item in students)
             {
-                students.Remove(item);
+                if (item == null) continue;
+                if (item.Id == id) return item;
+                
             }
+            return new Student();
         }
+
 
         public void ShowSystem()
         {
